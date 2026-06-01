@@ -5,6 +5,8 @@ A production-ready unlocked package for Field Service Lightning that enables fie
 [![Salesforce API](https://img.shields.io/badge/Salesforce%20API-v61.0-blue)](https://developer.salesforce.com/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.txt)
 
+> 📹 **Video walkthrough:** Watch a demo of AI Ticket Analyzer in action on Field Service Mobile at [salesforce.vidyard.com/watch/bHdU7ukV8EGzmC7ZTyRaib](https://salesforce.vidyard.com/watch/bHdU7ukV8EGzmC7ZTyRaib).
+
 ## 🎯 Overview
 
 This package solves the common field service challenge of manually transcribing handwritten tickets into Salesforce. Field technicians can:
