@@ -1,0 +1,23 @@
+{
+  "orgName": "AI Ticket Analyzer Package Org",
+  "edition": "Developer",
+  "features": [
+    "EnableSetPasswordInApi",
+    "Einstein1AIPlatform",
+    "ServiceCloud"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "einsteinGptSettings": {
+      "enableEinsteinGptPlatform": true
+    },
+    "fieldServiceSettings": {
+      "fieldServiceOrgPref": true
+    }
+  }
+}

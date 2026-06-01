@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordAction</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__UtilityBar</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordAction">
+            <actionType>ScreenAction</actionType>
+        </targetConfig>
+        <targetConfig targets="lightning__RecordPage">
+            <objects>
+                <object>WorkOrder</object>
+            </objects>
+            <property name="componentTitle" type="String" default="AI Ticket Analyzer" label="Component Title" description="Title displayed in the component header"/>
+            <property name="buttonLabel" type="String" default="Analyze with AI" label="Button Label" description="Label for the analyze button"/>
+            <property name="maxFileSizeMB" type="Integer" default="10" label="Max File Size (MB)" description="Maximum allowed file size in megabytes"/>
+        </targetConfig>
+        <targetConfig targets="lightning__AppPage,lightning__UtilityBar">
+            <property name="componentTitle" type="String" default="AI Ticket Analyzer" label="Component Title"/>
+            <property name="buttonLabel" type="String" default="Analyze with AI" label="Button Label"/>
+            <property name="maxFileSizeMB" type="Integer" default="10" label="Max File Size (MB)"/>
+        </targetConfig>
+    </targetConfigs>
+    <masterLabel>AI Ticket Analyzer</masterLabel>
+    <description>Mobile-optimized LWC for uploading handwritten tickets and analyzing them with Einstein AI. Designed for FSL Mobile App use on Work Orders.</description>
+</LightningComponentBundle>

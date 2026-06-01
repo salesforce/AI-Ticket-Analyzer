@@ -1,0 +1,28 @@
+# Salesforce
+.sfdx/
+.sf/
+.localdevserver/
+node_modules/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.iml
+.DS_Store
+
+# Logs
+*.log
+
+# Sensitive
+.env
+.env.local
+**/credentials.json
+**/*password*
+**/*secret*
+
+# Development
+context.md
+learnings.md
+notes/
+temp/
+scratch/

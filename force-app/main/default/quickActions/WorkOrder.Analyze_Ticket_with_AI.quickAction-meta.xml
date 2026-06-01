@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Analyze Ticket with AI</label>
+    <lightningWebComponent>aiTicketAnalyzer</lightningWebComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningWebComponent</type>
+    <description>Upload and analyze handwritten delivery tickets using Einstein AI</description>
+</QuickAction>
